@@ -1,0 +1,219 @@
+/*BODY*/
+body {
+    font-family: "Nanum Gothic Coding", monospace; /*font*/
+    margin-top: 30px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFEBAD;
+    margin-bottom: 0px;
+}
+
+/*HEADER*/
+header {
+    background-color: #FFFAE0;
+    text-align: center;
+    font-size: 35px;
+    color: #FFB061;
+    padding: 5px;
+}
+
+/*NAVIGATION BAR*/
+nav {
+    overflow: hidden;
+    background-color: #FFC87A;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav a {/*navigation link style*/
+    color: #FFF2E5;
+    padding: 14px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover {/*navigation link hover style*/
+    background-color: #FFB061;
+    color: #FFFAE0 ;
+}
+
+h2 { /*all text under h2*/
+    background-color: #FFB061;
+    color: #FFF2E5;
+    padding: 5px;
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+}
+
+/*DETAILS, DESCRIPTION AND IMAGE*/
+.detail {
+    background-color: #FFFAE0;
+    text-align: center;
+}
+.detail h2 {
+    background-color: #FFB061;
+    color: #FFF2E5;
+    padding: 5px;
+    font-size: 25px;
+    margin: 20px 0px 0px 0px;
+}
+.details {
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 250px;
+    background-color: #FFC87A ;
+    padding: 12px 20px 12px 20px;
+}
+
+.desc {
+    font-size: 18px;
+    float: left;
+    text-align: left;
+    margin: 20px 10px 0px 80px;
+    width: 250px;
+    background-color: #FFC87A ;
+    padding: 0px 20px 10px 20px;
+}
+
+.details b{
+    color: #FFF2E5;
+}
+
+img {
+    margin: 20px 80px 20px 10px;
+    width: 600px;
+    border: 7px solid #FFC87A;
+    float: right;
+}
+
+.clr { /*used to remove float*/
+    clear: both;
+}
+
+/*DIVIDER*/
+.divider {
+    color: #FFB061;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*INGREDIENTS AND STEPS*/
+.method h2 {
+    background-color: #FFB061;
+    color: #FFF2E5;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.one h3, .two h3, .three h3 { /*multiple elements with same styles separated by comma*/
+    background-color: #FFC87A;
+    color: #FFF2E5;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    border: 1px solid #FFB061 ;
+}
+
+.one, .two, .three {
+    background-color: #FFFAE0;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.one h4, .two h4, .three h4 {
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.ingDough, .ingChicken, .ingPizza {
+    float: left;
+    width: 300px;
+    padding: 5px 10px 27px 20px;
+    margin-left: 40px;
+    background-color: #FFC87A;
+    font-size: 16px;
+}
+
+.insDough, .insChicken, .insPizza {
+    margin-top: 0px;
+    padding: 2px 10px 10px 10px;
+    margin-left: 390px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.method ul, ol {
+    margin-top: 15px;
+}
+
+/*NUTRIENTS AND TABLE*/
+.nutrients {
+    background-color: #FFFAE0;
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+
+.nutrients h2 {
+    background-color: #FFB061;
+    color: #FFF2E5;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.nutrients table {
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: #FFB061;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nutrients td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #FFB061;
+}
+
+.nutrients tr:hover {
+    background-color: #FFC87A;
+}
+
+.nutreints td .right {
+    border-left: 2px soild #FFB061;
+}
+.nutreints p{
+    font-size: 12px;
+}
+
+/*SIDE DISHES*/
+.sides-dishes {
+    background-color: #FFFAE0;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 50px;
+}
+
+.sides-dishes p, .sides-dishes h4 {
+    margin: 7px 2px 7px 100px;
+    padding: 2px;
+    text-align: left;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #FFC87A;
+    color: #FFF2E5;
+    font-size: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 0px;
+}
