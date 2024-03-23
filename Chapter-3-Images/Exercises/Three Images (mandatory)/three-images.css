@@ -1,3 +1,4 @@
+/*style of page*/
 body {
     margin: 10px 180px 5px 180px;
     background-color: #EEEDEB;
@@ -14,6 +15,7 @@ header {
     margin-bottom: 50px;
 }
 
+/*heading styles*/
 h1 {
     background-color: #E0CCBE;
     color: #3C3633;
@@ -21,41 +23,42 @@ h1 {
     padding: 10px;
     font-size: 40px;
 }
-
-.one, .two, .three {
-    margin: 50px 0px 50px 0px;
-}
-
 h2 {
     font-size: 30px;
     color: #747264;
     margin: 5px;
 }
-
 h4 {
     font-size: 16px;
     color: #3C3633;
     margin: 5px 0px 10px 0px;
 }
 
+/*image divs*/
+.one, .two, .three {
+    margin: 50px 0px 50px 0px;
+}
+/*image placement*/
 .image1, .image2, .image3 {
     display:inline-block;
     width: 45%;
     padding: 5px;
 }
 
+/*FILTER ONE - Sepia*/
 .filter1 {
     filter: sepia(60%);
 }
-
+/*FILTER TWO - Brightness*/
 .filter2 {
     filter: brightness(130%);
 }
-
+/*FILTER THREE - Grayscale*/
 .filter3 {
     filter: grayscale(80%);
 }
 
+/*Caption Style*/
 figcaption {
     background-color: #E0CCBE;
     border-radius: 10px;
@@ -65,22 +68,18 @@ figcaption {
     font-size: 12px;
 }
 
+/*hr style*/
 hr {
     color: #3C3633;
     margin: 5px;
 }
 
-footer {
-    background-color: #E0CCBE;
-    padding: 10px;
-}
-
+/*link style*/
 a {
     text-decoration: underline;
     color: #747264;
     padding: 5px;
 }
-
 p a:hover {
     background-color: #747264;
     color: #E0CCBE;
@@ -88,9 +87,16 @@ p a:hover {
     border-radius: 10px;
 }
 
+/*paragraph text style*/
 p {
     font-size: 16px;
 }
 span {
     font-size: 12px;
+}
+
+/*footer style*/
+footer {
+    background-color: #E0CCBE;
+    padding: 10px;
 }
