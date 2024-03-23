@@ -1,21 +1,23 @@
+/*style of page*/
 body {
     background-color: #CAD2E8 ;
     text-align: center;
     margin: 30px 100px 10px 100px;
     font-family: "Nanum Gothic Coding", monospace; 
 }
-
+/*header*/
 header {
     background-color: #f8f9f8 ;
     padding: 2px 0px 0px 0px;
 }
 
+/*NAVIGATION BAR*/
 nav {
     font-size: 18px;
     padding: 0px 0px 2px 2px;
     overflow: hidden;
 }
-
+/*navigation bar links*/
 nav a {
     color: #000000;
     text-decoration: underline;
@@ -25,23 +27,24 @@ nav a {
     float: left;
     text-align: center;
 }
-
 #right {
     float: right;
     margin: 0px 10px 0px 10px;
     padding: 15px;
 }
-
+/*link hover style*/
 nav a:hover {
     background-color: #4C7EB8;
     color: #f8f9f8;
     padding: 15px;
 }
 
+/*clears float*/
 .clr {
     clear: both;
 }
 
+/*page heading*/
 header h1 {
     background-color: #8CA4CF;
     margin: 0px 0px 10px 0px;
@@ -59,6 +62,7 @@ header p  {
     color: #305C7E;
 }
 
+/*main content*/
 main {
     /*background-color: #f8f9f8;*/
     text-align: left;
@@ -82,11 +86,14 @@ hr {
     margin-left: 0;
 }
 
+/*classes of each section*/
 .info, .overview, .team, .charc, .rws {
     background-color: #f8f9f8;
     padding: 20px;
     margin-top: 20px;
 }
+
+/*table style*/
 .info table, .team table {
     border: 1px solid #4C7EB8;
     border-collapse: collapse;
@@ -94,6 +101,7 @@ hr {
     margin-left: 100px;
     margin-right: auto;
 }
+
 .info td, .team td {
     padding: 10px;
     text-align: left;
@@ -106,7 +114,7 @@ hr {
 .info tr:hover, .team tr:hover {
     background-color: #CAD2E8;
 }
-
+/*quote style*/
 .overview .quote {
     text-align: center;
     padding: 0px;
@@ -179,6 +187,7 @@ hr {
     background-color: #CAD2E8;
 }
 
+/*LINK STYLED AS BUTTON*/
 #button {
     width: max-content;
     background-color: #8CA4CF;
@@ -196,7 +205,6 @@ hr {
 #button:hover {
     background-color: #305C7E;
 }
-
 
 footer {
     background-color: #8CA4CF;
