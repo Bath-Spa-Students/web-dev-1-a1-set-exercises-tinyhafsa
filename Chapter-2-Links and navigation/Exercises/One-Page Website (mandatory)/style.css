@@ -1,0 +1,206 @@
+body {
+    background-color: #CAD2E8 ;
+    text-align: center;
+    margin: 30px 100px 10px 100px;
+    font-family: "Nanum Gothic Coding", monospace; 
+}
+
+header {
+    background-color: #f8f9f8 ;
+    padding: 2px 0px 0px 0px;
+}
+
+nav {
+    font-size: 18px;
+    padding: 0px 0px 2px 2px;
+    overflow: hidden;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: underline;
+    margin: 0px 10px 0px 10px;
+    padding: 15px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#right {
+    float: right;
+    margin: 0px 10px 0px 10px;
+    padding: 15px;
+}
+
+nav a:hover {
+    background-color: #4C7EB8;
+    color: #f8f9f8;
+    padding: 15px;
+}
+
+.clr {
+    clear: both;
+}
+
+header h1 {
+    background-color: #8CA4CF;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    color: #f8f9f8;
+    font-family: "Gugi", sans-serif;
+    font-size: 30px;
+}
+
+header p  {
+    font-size: 18px;
+    background-color: #f8f9f8;
+    padding: 15px;
+    margin: 0px;
+    color: #305C7E;
+}
+
+main {
+    /*background-color: #f8f9f8;*/
+    text-align: left;
+}
+
+main h2, main h4, main b {
+    color: #4C7EB8;
+    margin: 0;
+    padding: 0;
+}
+
+main p, main h4 {
+    font-size: 18px;
+    color: #173240;
+}
+
+hr {
+    color: #4C7EB8;
+    width: 100px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.info, .overview, .team, .charc, .rws {
+    background-color: #f8f9f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+.info table, .team table {
+    border: 1px solid #4C7EB8;
+    border-collapse: collapse;
+    width: auto;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.info td, .team td {
+    padding: 10px;
+    text-align: left;
+}
+
+.info tr, .team tr{
+    border-bottom: 1px solid #4C7EB8;
+}
+
+.info tr:hover, .team tr:hover {
+    background-color: #CAD2E8;
+}
+
+.overview .quote {
+    text-align: center;
+    padding: 0px;
+    color: #4C7EB8;
+    font-size: 20px;
+}
+
+.charc h4 {
+    margin-left: 30px;
+}
+
+.charc span {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 35px;
+}
+
+.actor {
+    border: 1px solid #8CA4CF;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.actor:hover {
+    background-color: #CAD2E8;
+}
+
+.charc .quote {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500;
+    color: #305C7E;
+    margin: 0px 100px 0px 100px;
+}
+
+.rws {
+    overflow: hidden;
+}
+
+.rws h4, .rws .user {
+    text-align: center;
+}
+
+.user, .star {
+    font-size: 16px;
+    margin: 0px;
+    color: #4C7EB8;
+}
+
+#review1, #review2 {
+    border: 1px solid #8CA4CF;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+#review1 {
+    float: left;
+    margin-left: 50px;
+    width: 450px;
+}
+
+#review2 {
+    float: right;
+    margin-right: 50px;
+    width: 450px;
+}
+
+#review1:hover, #review2:hover {
+    background-color: #CAD2E8;
+}
+
+#button {
+    width: max-content;
+    background-color: #8CA4CF;
+    border-radius: 70px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#button a {
+    color: #f8f9f8;
+    text-decoration: none;
+}
+
+#button:hover {
+    background-color: #305C7E;
+}
+
+
+footer {
+    background-color: #8CA4CF;
+    color: #f8f9f8;
+    padding: 5px;
+    margin-top: 20px;
+}
