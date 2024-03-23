@@ -15,7 +15,8 @@ header {
     text-align: center;
     font-size: 35px;
     color: #FFB061;
-    padding: 5px;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 30px;
 }
 
 /*NAVIGATION BAR*/
@@ -25,7 +26,6 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    margin-bottom: 30px;
 }
 nav a {/*navigation link style*/
     color: #FFF2E5;
