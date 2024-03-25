@@ -1,0 +1,132 @@
+<!--best viewed in Chrome Browser full screen-->
+
+<!DOCTYPE html> <!--DTD: Document Type Definition-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!--meta: data about data--> <!--charset: allows multiple languages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--fits screen to different devices-->
+
+    <!--font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <!-- CHAPTER 4: Study Planner (mandatory) -->
+    <title>Study Planner</title> <!--page title - shows on tab-->
+        <link rel = "stylesheet" href="study.css"> <!--link to external stylesheet-->
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Study Planner</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Modules</a>
+                <a href="#">Assignments</a>
+                <a href="#">Tutors</a>
+                <a href="#">Student</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="intro">
+                <h2>Web Development 1</h2>
+                <p class="desc">This module focuses on the creation of online interactive experiences. You learn the key languages of web development (HTML5, CSS, JavaScript) - gaining a practical understanding of how they handle content structure/styling and user interactivity. We assume little to no prior experience of web development. You learn from the ground up, working through coding challenges and creative briefs that help embed new techniques and best practice into your programming ‘toolkit’.</p>
+            </div>
+
+            <div class="schedule">
+                <h3>Week 5 Schedule</h3>
+                <div class="boxes">
+                    <div class="box">
+                        <h4>Session 1</h4>
+                        <p class="date">18 March 2024</p>
+                        <p>Semantic Markup <br> <span>Header, footer, nav, main, etc…</span></p>
+                        <a href="#">Lecture</a>
+                    </div>
+
+                    <div class="box">
+                        <h4>Session 2</h4>
+                        <p class="date">21 March 2024</p>
+                        <p>Embedded content <br> <span>Audio, Video, iFrame media</span></p>
+                        <a href="#">Lecture</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course">
+                <h3>Course Content</h3>
+                <p class="content">HTML</p>
+                <p class="content">CSS</p>
+                <p class="content">JavaScript</p>
+            </div>
+        </section>
+
+        <aside>
+            <div class="weeks">
+                <h3>All Weeks</h3>
+                <table>
+                    <tr>
+                        <td><a href="#">Week 1</a></td> 
+                        <td><a href="#">Week 2</a></td> 
+                        <td><a href="#">Week 3</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Week 4</a></td> 
+                        <td><a href="#">Week 5</a></td> 
+                        <td><a href="#">Week 6</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Week 7</a></td> 
+                        <td><a href="#">Week 8</a></td> 
+                        <td class="selected"><a href="#">Week 9</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Week 10</a></td> 
+                        <td><a href="#">Week 11</a></td> 
+                        <td><a href="#">Week 12</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tasks">
+                <h3>Upcoming tasks</h3>
+                <div class="task">
+                    <h4 class="taskTitle">One-Page Navigation Website</h4>
+                    <p class="dueDate">Today, 23:55</p>
+                    <p class="submit">Submit</p>
+                </div>
+                <div class="task">
+                    <h4 class="taskTitle">Image Filters</h4>
+                    <p class="dueDate">20 March, 23:55</p>
+                    <p class="submit">Submit</p>
+                </div>
+                <div class="task">
+                    <h4 class="taskTitle">Page Layout</h4>
+                    <p class="dueDate">25 March, 23:55</p>
+                    <p class="submit">Submit</p>
+                </div>
+            </div>
+        </aside>
+
+        <div class="clr"></div>
+
+        <div class="resource">
+            <h3>Resources</h3>
+            <p class="item">Websites</p>
+            <p class="item">Briefs</p>
+            <p class="item">Tutorials</p>
+            <p class="item">Lectures</p>
+            <p class="item">Books</p>
+            <p class="item">Certificates</p>
+        </div>
+    </main>
+
+    <footer>
+        Copyright &copy; Study Planner - 2024 Syeda Hafsa
+    </footer>
+</body>
+
+</html>
