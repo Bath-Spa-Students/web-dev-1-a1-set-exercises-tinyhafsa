@@ -1,0 +1,208 @@
+body {
+    margin: 0px;
+    font-family: "Nanum Gothic", sans-serif;
+    background-color: #F8E8EE;
+}
+
+header {
+    text-align: center;
+    margin: 0px 60px;
+    padding: 50px 0px 30px 0px;
+}
+
+h1 {
+    background-color: #F9F5F6;
+    border-radius: 10px 10px 0px 0px;
+    color: #F2BED1;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    padding: 5px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #F2BED1;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F9F5F6;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #FDCEDF;
+    color: #352F44;
+}
+
+main {
+    margin: 0px 60px;
+}
+
+h2, h3 {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+section {
+    float: left;
+    width: 65%;
+}
+
+.intro {
+    margin: 15px 2px;
+    padding: 0px;
+    background-color: #F2BED1;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: #F9F5F6;
+    padding: 10px;
+    text-align: center;
+    color: #F2BED1;
+    font-weight: 800;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.intro p {
+    padding: 0px 20px 20px 20px;
+    font-size: 18px;
+}
+
+h3 {
+    background-color: #F2BED1;
+    padding: 10px;
+    text-align: center;
+    color: #F9F5F6;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.schedule {
+    margin: 15px 2px;
+    background-color: #F9F5F6;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.boxes {
+    padding: 0px 27px;
+}
+
+.box {
+    display: inline-block;
+    margin: 20px 20px 30px 20px;
+    padding: 10px;
+    border: 2px solid #F2BED1;
+    width: 300px;
+    text-align: center;
+}
+
+.box h4 {
+    margin: 2px;
+    font-weight: 800;
+}
+
+
+.box .date {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.box span {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.box a {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #352F44;
+    padding: 5px;
+}
+
+.box a:hover {
+    background-color: #FDCEDF;
+    border-radius: 2px;
+}
+
+.course {
+    margin: 15px 2px;
+    padding: 0px;
+    background-color: #F9F5F6;
+    border-radius: 20px;
+}
+
+.content {
+    display: inline-block;
+    margin: 10px 100px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+.weeks {
+    margin: 15px 2px;
+    padding: 0px 0px 10px 0px;
+    background-color: #F9F5F6;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.weeks table, td {
+    margin: 15px 35px;
+    border: 1px solid #FDCEDF;
+    border-collapse: collapse;
+    text-decoration: underline;
+}
+
+.weeks td {
+    padding: 4px;
+    padding: 15px;
+    border: 1px solid #FDCEDF;
+    border-collapse: collapse;
+}
+
+.weeks a {
+    color: #352F44;
+}
+
+.weeks td:hover {
+    background-color: #F2BED1;
+}
+
+.weeks .selected {
+    background-color: #F2BED1
+}
+
+.tasks {
+    margin: 15px 2px;
+    padding: 0px;
+    background-color: #F9F5F6;
+    border-radius: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+.resource {
+    margin: 15px 2px;
+    padding: 0px;
+    background-color: #F9F5F6;
+    border-radius: 20px;
+}
