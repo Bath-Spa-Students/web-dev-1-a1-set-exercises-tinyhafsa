@@ -44,27 +44,43 @@
                         <h4>Session 1</h4>
                         <p class="date">18 March 2024</p>
                         <p>Semantic Markup <br> <span>Header, footer, nav, main, etc…</span></p>
-                        <a href="#">Lecture</a>
+                        <button><a href="#">Lecture</a></button>
                     </div>
 
                     <div class="box">
                         <h4>Session 2</h4>
                         <p class="date">21 March 2024</p>
                         <p>Embedded content <br> <span>Audio, Video, iFrame media</span></p>
-                        <a href="#">Lecture</a>
+                        <button><a href="#">Lecture</a></button>
                     </div>
                 </div>
             </div>
 
             <div class="course">
                 <h3>Course Content</h3>
-                <p class="content">HTML</p>
-                <p class="content">CSS</p>
-                <p class="content">JavaScript</p>
+                <div class="content">
+                    <span>HTML</span> <br>
+                    <p>HTML stands for Hyper Text Markup Language. It describes the structure of a Web page. It consists of a series of element that tell the browser how to display the content.</p>
+                    <button><a href="https://www.w3schools.com/html/" target="_blank">Learn More</a></button>
+                </div>
+                <div class="content">
+                    <span>CSS</span> <br>
+                    <p>CSS stands for Cascading Style Sheets. It describes how HTML elements are to be displayed on screen. It can control the layout of multiple web pages all at once.</p>
+                    <button><a href="https://www.w3schools.com/css/" target="_blank">Learn More</a></button>
+                </div>
+                <div class="content">
+                    <span>JavaScript</span> <br>
+                    <p>JavaScript is a programming language that enables web developers to make static content dynamic, resulting in a more engaging site experience for users.</p>
+                    <button><a href="https://www.w3schools.com/js/" target="_blank">Learn More</a>
+                    </button>
+                </div>
             </div>
         </section>
 
         <aside>
+            <div class="tutor">
+                <h3>Tutor: Mr. James</h3>
+            </div>
             <div class="weeks">
                 <h3>All Weeks</h3>
                 <table>
@@ -75,13 +91,13 @@
                     </tr>
                     <tr>
                         <td><a href="#">Week 4</a></td> 
-                        <td><a href="#">Week 5</a></td> 
+                        <td  class="selected"><a href="#">Week 5</a></td> 
                         <td><a href="#">Week 6</a></td>
                     </tr>
                     <tr>
                         <td><a href="#">Week 7</a></td> 
                         <td><a href="#">Week 8</a></td> 
-                        <td class="selected"><a href="#">Week 9</a></td>
+                        <td><a href="#">Week 9</a></td>
                     </tr>
                     <tr>
                         <td><a href="#">Week 10</a></td> 
@@ -94,34 +110,33 @@
             <div class="tasks">
                 <h3>Upcoming tasks</h3>
                 <div class="task">
-                    <h4 class="taskTitle">One-Page Navigation Website</h4>
+                    <h4 class="taskTitle"><a href="#">One-Page Navigation Website</a></h4>
                     <p class="dueDate">Today, 23:55</p>
-                    <p class="submit">Submit</p>
                 </div>
                 <div class="task">
-                    <h4 class="taskTitle">Image Filters</h4>
+                    <h4 class="taskTitle"><a href="#">Image Filters</a></h4>
                     <p class="dueDate">20 March, 23:55</p>
-                    <p class="submit">Submit</p>
                 </div>
                 <div class="task">
-                    <h4 class="taskTitle">Page Layout</h4>
+                    <h4 class="taskTitle"><a href="#">Page Layout</a></h4>
                     <p class="dueDate">25 March, 23:55</p>
-                    <p class="submit">Submit</p>
                 </div>
+            </div>
+
+            <div class="resource">
+                <h3>Resources</h3>
+                <table>
+                    <tr>
+                        <td>Websites</td> <td>Tutorials</td> <td>Briefs</td>
+                    </tr>
+                    <tr>
+                        <td>Lectures</td> <td>Books</td> <td>Certificates</td>
+                    </tr>
+                </table>
             </div>
         </aside>
 
         <div class="clr"></div>
-
-        <div class="resource">
-            <h3>Resources</h3>
-            <p class="item">Websites</p>
-            <p class="item">Briefs</p>
-            <p class="item">Tutorials</p>
-            <p class="item">Lectures</p>
-            <p class="item">Books</p>
-            <p class="item">Certificates</p>
-        </div>
     </main>
 
     <footer>
