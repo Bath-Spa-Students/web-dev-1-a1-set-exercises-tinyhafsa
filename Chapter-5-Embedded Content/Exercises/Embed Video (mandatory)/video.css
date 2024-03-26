@@ -1,0 +1,53 @@
+/*importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+
+/*style of page*/
+body {
+    background-color: #dbe7e8;
+    text-align: center;
+    font-family: "Tac One", sans-serif;
+    color: #972c33;
+}
+
+/*heading style*/
+h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    right: 40%;
+}
+
+/*video style - size and shadow*/
+video {
+    width: 700px;
+    box-shadow: 12px 12px #972c33;
+}
+
+/*position of video*/
+.vid {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*copyright information style*/
+.copyright {
+    font-size: 16px;
+    margin: 10px;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 82%;
+}
+
+/*link styles*/
+a {
+    color: #ab9ca2;
+    padding: 5px;
+}
+a:hover, a:active {
+    background-color: #972c33;
+    color: #d6d0d1;
+}
