@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!--DTD: Document Type Definition-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!--meta: data about data--> <!--charset: allows multiple languages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--fits screen to different devices-->
+
+    <!--font import-->
+
+    <!-- CHAPTER 5: Embed Video (mandatory) -->
+    <title>Embed Video</title> <!--page title - shows on tab-->
+        <link rel = "stylesheet" href="video.css"> <!--link to external stylesheet-->
+</head>
+
+<body>
+    <!--heading-->
+    <h1>Elementals</h1>
+    <!--video-->
+    <div class="vid">
+        <!--video thumbnail - controls set to loop-->
+        <video poster="media/poster.png" controls loop>
+            <!--video source - video type-->
+            <source src="media/video.mp4" type="video/mp4">
+            <!--alternative text-->
+            Video is not supported.
+        </video>
+    </div>
+    <!--copyright information-->
+    <div class="copyright">
+        &copy; Azuki | 
+        <a href="https://www.youtube.com/watch?v=m1ijQhuJkCY&pp=ygUQYXp1a2kgZWxlbWVudGFscw%3D%3D" target="_blank">Original Video</a> | 
+        <a href="https://www.azuki.com/" target="_blank">Website</a>
+    </div>
+</body>
+</html>
