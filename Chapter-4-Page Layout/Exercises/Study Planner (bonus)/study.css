@@ -142,7 +142,7 @@ button {
 }
 
 button:hover {
-    background-color: #F8E8EE;
+    background-color: #FDCEDF;
     border: 1px solid #F2BED1;
 }
 
@@ -209,7 +209,7 @@ aside {
 }
 
 .weeks td:hover {
-    background-color: #F2BED1;
+    background-color: #FDCEDF;
 }
 
 .weeks .selected {
@@ -246,19 +246,6 @@ a {
     font-weight: 200;
 }
 
-.submit {
-    display: inline-block;
-    padding: 2px 30px;
-    margin: 0px 0px 15px 40px;
-    background-color: #F8E8EE;
-    font-size: 16px;
-}
-
-.submit:hover {
-    background-color: #FDCEDF;
-    color: #352F44;
-}
-
 /*CLEAR FLOAT*/
 .clr {
     clear: both;
@@ -266,7 +253,7 @@ a {
 
 /*RESOURCES*/
 .resource {
-    margin: 29px 2px;
+    margin: 23px 2px;
     padding: 0px 0px 10px 0px;
     background-color: #F9F5F6;
     font-size: 16px;
@@ -292,7 +279,7 @@ a {
 }
 
 .resource td:hover {
-    background-color: #F2BED1;
+    background-color: #FDCEDF;
 }
 
 /*FOOTER STYLE*/
