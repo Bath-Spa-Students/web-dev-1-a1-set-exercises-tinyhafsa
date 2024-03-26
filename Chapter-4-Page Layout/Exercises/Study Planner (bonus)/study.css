@@ -4,6 +4,7 @@ body {
     background-color: #F8E8EE;
 }
 
+/*HEADER SECTION*/
 header {
     text-align: center;
     margin: 0px 60px;
@@ -21,6 +22,7 @@ h1 {
     margin: 0px;
 }
 
+/*NAVIGATION ABR*/
 nav {
     background-color: #F2BED1;
     margin: 0px;
@@ -39,6 +41,7 @@ nav a:hover {
     color: #352F44;
 }
 
+/*MAIN SECTION DIVIDED INTO TWO COLUMNS*/
 main {
     margin: 0px 60px;
 }
@@ -47,11 +50,13 @@ h2, h3 {
     font-family: "Chakra Petch", sans-serif;
 }
 
+/*LEFT COLUMN*/
 section {
     float: left;
     width: 65%;
 }
 
+/*INTRO SECTION*/
 .intro {
     margin: 15px 2px;
     padding: 0px;
@@ -79,6 +84,7 @@ h3 {
     margin-bottom: 5px;
 }
 
+/*WEEKLY SHEDULE*/
 .schedule {
     margin: 15px 2px;
     background-color: #F9F5F6;
@@ -126,6 +132,7 @@ h3 {
     padding: 5px;
 }
 
+/*BUTTON STYLE*/
 button {
     background-color: #F2BED1;
     border: 1px solid #F2BED1;
@@ -139,6 +146,7 @@ button:hover {
     border: 1px solid #F2BED1;
 }
 
+/*COURSE CONTENT*/
 .course {
     margin: 15px 2px;
     padding: 0px;
@@ -173,6 +181,7 @@ aside {
     width: 30%;
 }
 
+/*ALL WEEKS*/
 .weeks {
     margin: 20px 2px;
     padding: 0px 0px 10px 0px;
@@ -207,6 +216,7 @@ aside {
     background-color: #F2BED1
 }
 
+/*TASKS AND DEADLINES*/
 .tasks {
     margin: 20px 2px;
     padding: 0px 0px 20px 0px;
@@ -249,10 +259,12 @@ a {
     color: #352F44;
 }
 
+/*CLEAR FLOAT*/
 .clr {
     clear: both;
 }
 
+/*RESOURCES*/
 .resource {
     margin: 29px 2px;
     padding: 0px 0px 10px 0px;
@@ -283,6 +295,7 @@ a {
     background-color: #F2BED1;
 }
 
+/*FOOTER STYLE*/
 footer {
     background-color: #F2BED1;
     color: #352F44;
