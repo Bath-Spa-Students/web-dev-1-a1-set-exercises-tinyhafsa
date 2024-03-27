@@ -1,0 +1,80 @@
+<!-- BEST VIEWED ON: Google Chrome Browser full screen-->
+
+<!DOCTYPE html> <!--DTD: Document Type Definition-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!--meta: data about data--> <!--charset: allows multiple languages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--fits screen to different devices-->
+
+    <!--importing fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jura:wght@300..700&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- CHAPTER 2: Multi-Page Website (Bonus) -->
+    <title>Reviews</title> <!--page title - shows on tab-->
+        <!--link to external stylesheet-->
+        <link rel = "stylesheet" href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/multi-page.css"> 
+        <link rel="icon" href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/images/favicon.png" type="image/x-icon"> <!--favicon-->
+</head>
+
+<body>
+    <header>
+        <!--navigation bar to page sections-->
+        <nav>
+            <a href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/multi-page.html">Key Information</a>
+            <a href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/pages/plot.html" class="active">Plot Overview</a>
+            <a href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/pages/team.html">Cast and Crew</a>
+            <a href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/pages/characters.html">Characters</a>
+            <a href="/Chapter-2-Links and navigation/Exercises/Multi-Page Website (bonus)/pages/reviews.html" class="current">Reviews</a>
+            <!--link to actual movie - opens in new tab-->
+            <a href="https://www.amazon.com/Interstellar-Matthew-McConaughey/dp/B00TU9UFTS" target="_blank" id="right">Watch Now</a>
+            <div class="clr"></div>
+        </nav>
+        <!--heading-->
+        <h1>「 ｡ ｡   I N T E R S T E L L A R  ｡  ｡ 」</h1>
+        <!--tagline-->
+        <p> - ‘ Mankind was born on Earth. It was never meant to die here. ’ - </p>
+    </header>
+    
+    <main>
+        <div class="rws">
+            <!--reviews of the movie-->
+            <h2 id="reviews">Reviews</h2>
+            <hr>
+            <div id="review1">
+                <h4>Masterpiece</h4>
+                <p class="user">aheaven2005 - 25 June 2022 <span class="stars">★★★★★</span></p>
+                <p>A science-fiction masterpiece. Nolan executes a marvelous direction that slowly but efficiently puts in place a dark world creating a necessity to save humanity. Add to that great performances from Nolan and Hathaway plus a great score from Hans Zimmer. The result is on the best science-fiction movies of all time.</p>
+            </div>
+            <div id="review2">
+                <h4>I would rate 11/10</h4>
+                <p class="user">mysteryvoiceman - 24 June 2018 <span class="stars">★★★★★</span></p>
+                <p>I hadn't seen this but movie and caught it on a flight back from the DR. One of my favorite movies of all time. I would give the first half of the movie an 11/10, just completely enjoyed it as a sci fi/ thriller(in the sense of so much always being on the line). I loved the acting and just yeah, a great movie and one you should go see if you never have</p>
+            </div>
+            <div class="clr"></div>
+            <div id="review1">
+                <h4>Fascinating Film</h4>
+                <p class="user">Rainey-dawn - 15 November 2020 <span class="stars">★★★★★</span></p>
+                <p>The earth is plagued with droughts, famines and other apocalyptic disasters. Mankind must find a way to leave planet earth once and for all. An earth-like planet has been discovered in another solar system. A spaceship can travel fast through a wormhole though interstellar space but can Cooper get there and return to earth in time to see his daughter before she grows too old?<br>
+                The Aging of Murph vs her father Cooper the answer is relativity playing a factor in aging - how fast time runs depend on the relative position of the observer and the subject. Incredible movie - HIGHLY RECOMMENDED! 10/10</p>
+            </div>
+            <div id="review2">
+                <h4>An space-epic sweeping in scale yet intimate in scope.</h4>
+                <p class="user">Pjtaylor-96-138044 - 12 May 2018 <span class="stars">★★★★★</span></p>
+                <p>'Interstellar (2014)' is a space-epic that feels remarkably intimate and emotionally resonant while also being sweeping in scope and visually stunning. The mixture of earthy textures and sleek sci-fi aesthetics makes for an interesting visual juxtaposition between the two sets of characters. While its third act does get a little existential and abstract, the narrative reasoning behind it and scientific integrity leading up to it allows for constant believability. This film never fails to have an impact on me, it is truly breathtaking work. In fact, it is one of my favourite pictures of all time. 10/10</p>
+            </div>
+            <div class="clr"></div>
+        </div>
+        
+        <!--link styled as button - opens in new tab-->
+        <div id="button">
+            <a href="https://www.imdb.com/title/tt0816692/reviews/?ref_=ttqu_ql_2" target="_blank">More Reviews</a>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        Copyright &copy; One-Page Website - 2024 Syeda Hafsa
+    </footer>
+</body>
+</html>
