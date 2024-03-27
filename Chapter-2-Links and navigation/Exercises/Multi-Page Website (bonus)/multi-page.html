@@ -1,0 +1,91 @@
+<!-- BEST VIEWED ON: Google Chrome Browser full screen-->
+
+<!DOCTYPE html> <!--DTD: Document Type Definition-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!--meta: data about data--> <!--charset: allows multiple languages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--fits screen to different devices-->
+
+    <!--importing fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Jura:wght@300..700&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- CHAPTER 2: Multi-Page Website (Bonus) -->
+    <title>Multi-Page Website</title> <!--page title - shows on tab-->
+        <!--link to external stylesheet-->
+        <link rel = "stylesheet" href="multi-page.css"> 
+        <link rel="icon" href="images/favicon.png" type="image/x-icon"> <!--favicon-->
+</head>
+
+<body>
+    <header>
+        <!--navigation bar to page sections-->
+        <nav>
+            <a href="#about" class="current">Key Information</a>
+            <a href="pages/plot.html">Plot Overview</a>
+            <a href="pages/team.html">Cast and Crew</a>
+            <a href="pages/characters.html">Characters</a>
+            <a href="pages/reviews.html">Reviews</a>
+            <!--link to actual movie - opens in new tab-->
+            <a href="https://www.amazon.com/Interstellar-Matthew-McConaughey/dp/B00TU9UFTS" target="_blank" id="right">Watch Now</a>
+            <div class="clr"></div>
+        </nav>
+        <!--heading-->
+        <h1>「 ｡ ｡   I N T E R S T E L L A R  ｡  ｡ 」</h1>
+        <!--tagline-->
+        <p> - ‘ Mankind was born on Earth. It was never meant to die here. ’ - </p>
+    </header>
+
+    <main>
+        <div class="info">
+            <!--key information about the movie-->
+            <h2 id="about">Key Information</h2>
+            <hr>
+            <!--genre - review rating - movie length - awards and nominations - tagline - age rating-->
+            <table>
+                <tr>
+                    <td><b>Genres:</b></td> <td>Adventure - Drama - Sci-fi</td>
+                </tr>
+                <tr>
+                    <td><b>Movie Length:</b></td> <td>2h 49min</td>
+                </tr>
+                <tr>
+                    <td><b>IMBd Rating:</b></td> <td>8.7/10 (2.1 million votes)</td>
+                </tr>
+                <tr>
+                    <td><b>Age Rating:</b></td> <td> PG-13</td>
+                </tr>
+                <tr>
+                    <td><b>Awards and Nominations:</b></td> <td>1 Oscar - 44 wins & 148 nominations</td>
+                </tr>
+                <tr>
+                    <td><b>Language:</b></td> <td>English</td>
+                </tr>
+                <tr>
+                    <td><b>Country of Origin:</b></td> <td>US, UK, Canada</td>
+                </tr>
+                <tr>
+                    <td><b>Production Companies:</b></td><td>Paramount Pictures, Warner Bros., Legendary Entertainment</td>
+                </tr>
+                <tr>
+                    <td><b>Official Websites:</b></td> <td><a href="https://www.facebook.com/Interstellar">Facebook</a> - <a href="https://twitter.com/Interstellar">Twitter</a></td>
+                </tr>
+            </table>
+            <br>
+            <h2>Quote</h2>
+            <hr>
+            <p class="quote"><b>Cooper:</b> We used to look up at the sky and wonder at our place in the stars. Now we just look down, and worry about our place in the dirt.</p>
+        </div>
+    
+        <!--link styled as button - opens in new tab-->
+        <div id="button">
+            <a href="https://www.imdb.com/title/tt0816692/" target="_blank">Learn More</a>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        Copyright &copy; One-Page Website - 2024 Syeda Hafsa
+    </footer>
+</body>
+</html>
