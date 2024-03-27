@@ -1,0 +1,91 @@
+body {
+    background-color: #FEECE2; 
+    width: 70%;
+    margin: 30px auto 30px auto;
+    color: #0C2D57;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html, .css {
+    background-color: #FFFBF5;
+    box-shadow: #E78895 10px 10px;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+    border: 1px solid #E78895;
+}
+
+h1 {
+    background-color: #FFFBF5;
+    color: #E78895;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px #E78895;
+    border: 1px solid #E78895;
+}
+
+h2 {
+    padding: 10px;
+    color: #E78895;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0px ;
+}
+
+.desc {
+    background-color: #FFF7F1;
+    border: 2px solid #E78895;
+    padding: 5px 10px;
+}
+
+h3 {
+    color: #E78895;
+    margin: 5px;
+}
+
+.def1 {
+    font-size: 18px;
+}
+
+.def2 {
+    font-size: 16px;
+}
+
+pre {
+    background-color: #F7EFE5;
+    padding: 10px 10px 10px 0px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #E78895;
+    padding: 2px 4px;
+    border-radius: 3px;
+    background-color: #F7EFE5;
+    font-size: 15px;
+}
+
+.box {
+    background-color: #bfbaba; /*sets the background color of the class box*/
+    width: 300px; /*sets the width of class box as 300px*/
+    height: 200px; /*sets the height of class box as 200px*/
+    padding: 20px; /*sets the padding of class box as 20px*/
+    text-align: center; /*aligns the text to the center in the class box*/
+    font-size: 24px; /*sets the font size of class box to 24px */
+    font-family: Arial, sans-serif; /*sets the font family of box class */
+    border-radius: 20px; /*adds a border radius of 20px to the class box */
+    }
+
+hr {
+    color: #E78895;
+}
+
+footer {
+    text-align: center;
+    background-color: #FFFBF5;
+    color: #E78895;
+    padding: 8px;
+    box-shadow: 10px 10px #E78895;
+    border: 1px solid #E78895;
+}
