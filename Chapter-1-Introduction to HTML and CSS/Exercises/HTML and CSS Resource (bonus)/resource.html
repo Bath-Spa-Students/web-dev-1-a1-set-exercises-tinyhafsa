@@ -8,57 +8,64 @@
 
     <link rel = "stylesheet" href="resource.css"> <!--link to external stylesheet-->
 </head>
-<!--### HTML and CSS Resource (Bonus - Optional)
-
-Create a HTML & CSS quick-reference guide that covers all of the tags we've covered so far (and a few extras) with a description of how to use them and code examples.
-
-* Use an external stylesheet.
-* Be creative with your styling, but keep it professional.
-* Use the `<code>` and `<pre>` HTML tags to include code examples.
-* Include a minimum of 10 HTML tags.
-* Include a minimum of 8 CSS properties.
-* Include a variety of different headers.
-* Make sure the code is indented and spaced properly.-->
 
 <body>
+    <!-- heading -->
     <header>
         <h1>HTML and CSS Resource</h1>
     </header>
+
+    <!-- main section -->
     <main>
+        <!-- HTML TAGS -->
         <div class="html">
             <h2>HTML Tags</h2>
+            <!-- HTML TAGS DESC -->
             <div class="desc">
                 <p class="def1">HTML stands for Hyper Text Markup Language. It describes the structure of a Web page. It's made up of elements that tell the browser how to display content.</p>
 
                 <h3>Types of HTML tags</h3>
                 <p class="def2"> <b>Container Tags</b> are tags that require both opening and closing tags. these include heading tags and anchor tags. <br> <b>Empty Tags</b> are tags that do not require a closing tag.</p>
             </div>
-        
-            <h3>Page Structure</h3>
+            
+            <!-- STURUCTURAL TAGS -->
             <h4>1. Structural Elements</h4>
-            <p>The <code class="code">&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document. <br>The <code class="code">&lt;html lang="en"&gt;</code> element is the root element of an HTML page. <br>The <code class="code">&lt;head&gt;</code> element contains meta information about the HTML page. <br>The <code class="code">&lt;title&gt;</code> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab). <br>The <code class="code">&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-                <pre>
-                    <code>
-                        &lt;!DOCTYPE html&gt;
-                        &lt;html lang="en"&gt;
-                        &lt;head&gt; 
-                            &lt;title&gt;My First Web Page&lt;/title&gt; 
-                        &lt;/head&gt; 
-                        &lt;body&gt;
-                            &lt;h1&gt;Hello, World!&lt;/h1&gt; 
-                            &lt;p&gt;This is my first web page.&lt;/p&gt;
-                        &lt;/body&gt; 
-                        &lt;/html&gt; 
-                    </code>
-                </pre>
+            <p>The <code class="code">&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document. <br>
+            The <code class="code">&lt;html lang="en"&gt;</code> element is the root element of an HTML page. <br>
+            The <code class="code">&lt;head&gt;</code> element contains meta information about the HTML page. <br>
+            The <code class="code">&lt;title&gt;</code> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab). <br>
+            The <code class="code">&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+            <!-- CODE EXAMPLE -->
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;My First Web Page&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                        &lt;p&gt;This is my first web page.&lt;/p&gt;
+                    &lt;/body&gt; 
+                    &lt;/html&gt; 
+                </code>
+            </pre>
 
-            <h3>Basic Tags</h3>
+            <!-- BASIC TAGS -->
+            <!-- PARAGRAPH TAG -->
             <h4>2. Paragraph</h4>
             <p>The <code>&lt;p&gt;</code> tag is used to add a paragraph to the page.</p>
-            <pre><code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</code></pre>
+            <!-- CODE EXAMPLE -->
+            <pre>
+                <code>
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+                </code>
+            </pre>
 
+            <!-- HEADING TAG -->
             <h4>3. Headings</h4>
             <p>HTML headings are titles or subtitles that you want to display on a webpage. HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags. <code>&lt;h1&gt;</code> defines the most important heading. <code>&lt;h6&gt;</code> defines the least important heading.</p>
+            <!-- CODE EXAMPLE -->
             <pre>
                 <code>
                     &lt;h1&gt;Heading Level 1&lt;/h1&gt;
@@ -70,7 +77,8 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
-            <h4>4. Line Break</h4>
+            <!-- HORIZONTAL RULE TAG -->
+            <h4>4. Horizontal Rule</h4>
             <p>The <code>&lt;hr&gt;</code> is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.</p>
             <pre>
                 <code>
@@ -80,6 +88,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
             
+            <!-- LINK ANCHOR TAG -->
             <h4>5. Links</h4>
             <p>The HTML <a> tag defines a hyperlink. It has the following syntax: <code>&lt;a href="url"&gt;link text&lt;/a&gt;</code>. The most important attribute of the <a> element is the href attribute, which indicates the link's destination. The link text is the part that will be visible to the reader.</p>
             <pre>
@@ -88,6 +97,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
             
+            <!-- DIV AND SPAN TAGS -->
             <h4>6. Div and Span</h4>
             <p>The <code>&lt;div&gt;</code> element is a block-level elemnt used to create a container that can hold other HTML elements.
             The <code>&lt;span&gt;</code> tag is an inline container used to mark up a part of a text, or a part of a document.
@@ -101,7 +111,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
-            <h3>Lists</h3>
+            <!-- LIST TAGS -->
             <h4>7. Unordered List</h4>
             The <code>&lt;ul&gt;</code> tag defines an unordered (bulleted) list. The <code>&lt;li&gt;</code> elements represent list items within the list.
             <pre>
@@ -126,7 +136,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
-            <h3>Media</h3>
+            <!-- IMAGES -->
             <h4>9. Images</h4> 
             <p>The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page. The <code>src</code> attribute specifies the path to the image. The <code>alt</code> specifies an alternate text for the image, if the image for some reason cannot be displayed</p>
             <pre>
@@ -134,7 +144,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                     &lt;img src="example.jpg" alt="Example Image"&gt;
                 </code>
             </pre>
-
+            <!-- TABLES -->
             <h4>10. Tables</h4>
             <p>The <code>&lt;table&gt;</code> tag defines an HTML table. It is made up of one <code>&lt;table&gt;</code> element and one or more <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, and <code>&lt;td&gt;</code> elements. <br>
             The <code>&lt;tr&gt;</code> element defines a table row, the <code>&lt;th&gt;</code> element defines a table header, and the <code>&lt;td&gt;</code> element defines a table cell.</p>
@@ -158,12 +168,13 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
             </pre>
         </div>  
 
-
+        <!-- CSS PROPERTIES -->
         <div class="css">
             <h2>CSS Properties</h2>
             <div class="desc">
                 <p class="def1">CSS stands for Cascading Style Sheets. It is the language we use to style an HTML document. It describes how HTML elements should be displayed.</p>
 
+                <!-- USING CSS -->
                 <h3>Adding CSS to a Webpage</h3>
                 <p class="def2">There are three ways to add CSS to a webpage: 
                     <ul>
@@ -172,7 +183,8 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                         <li>Inline CSS: it is contained in an element and is used to style that specific element.</li>
                     </ul>
                 </p>
-                
+
+                <!-- CSS SYNTAX -->
                 <h3>CSS Syntax</h3>
                 <p class="def2">A CSS rule consists of a selector and a declaration block. The <b>selector</b> points to the HTML element you want to style. The <b>declaration</b> block contains one or more declarations separated by semicolons. Each declaration includes a CSS <b>property</b> name and a <b>value</b>, separated by a colon. Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
                 <pre>
@@ -186,6 +198,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 <p>In the above code <code>p</code> is the selector. <code>color</code> and <code>text-align</code> are properties, with values of <code>red</code> and <code>center</code>.</p>
             </div>
 
+            <!-- COLOR -->
             <h4>1. Color</h4>
             <p>The color of the text can be changed using the <code>color</code> property. It is given a value of a predefined color name, HEX code or RGB value. </p>
             <pre>
@@ -196,6 +209,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- TEXT DECORATION -->
             <h4>2. Text Decoration</h4>
             <p>The <code>text-decoration</code> property is used to add decoration to a text by adding a <code>line</code> to it, and then changing its <code>color</code>, <code>style</code> and <code>thickness</code>.</p>
             <pre>
@@ -206,6 +220,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
         
+            <!-- TEXT ALIGNMENT -->
             <h4>3. Text Alignment</h4>
             <p>The <code>text-align</code> property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified.</p>
             <pre>
@@ -216,6 +231,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- BACKGROUND COLOR -->
             <h4>4. Background Color</h4>
             <p>The <code>background-color</code> property specifies the background color of an element.</p>
             <pre>
@@ -226,6 +242,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- BACKGROUND IMAGE -->
             <h4>5. Background Image</h4>
             <p>The background-image property specifies an image to use as the background of an element. </p>
             <pre>
@@ -236,6 +253,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- BACKGROUND REPEAT -->
             <h4>6. Background Repeat</h4>
             <p>By default, the image is repeated vertically and horizontally so it covers the entire element. The value can be changed to set the image to repeat only horizontally <code>repeat-x</code>, or vertically <code>repeat-y</code> or not at all <code>no-repeat</code>.</p>
             <pre>
@@ -247,6 +265,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- BORDER STYLING -->
             <h4>7. Border</h4>
             The CSS <code>border</code> property specifies the style, width, and color of an element's border. <br>
             The <code>border-style</code> property specifies what kind of border to be displayed, like <code>dotted</code>, <code>dashed</code> or <code>solid</code>. <br>
@@ -264,6 +283,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- TEXT SHADOW STYLING -->
             <h4>8. Text Shadow</h4>
             <p>The <code>text-shadow</code> property applies shadow to text. Values for the horizontal and vertical shadows can be specified, and color and a blur effect can be added to the text.</p>
             <pre>
@@ -274,6 +294,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- BOX SHADOW STYLING -->
             <h4>9. Box Shadow</h4>
             <p>The <code>box-shadow</code> property is used to apply one or more shadows to an element. Values for horizontal and vertical shadows, colors and blur effects can be added.</p>
             <pre>
@@ -284,6 +305,7 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
 
+            <!-- FONT STYLING -->
             <h4>10. Font</h4>
             <p>The <code>font-family</code> property allows the name of the font to be added as a value. <br>
             The <code>font-size</code> property sets the size of the font. <br>
@@ -298,11 +320,12 @@ Create a HTML & CSS quick-reference guide that covers all of the tags we've cove
                 </code>
             </pre>
         </div>
-        
     </main>
+
+    <!-- FOOTER -->
     <footer>
-        <!--credits-->
         <p id="credits">Copyright &copy; HTML & CSS Resource Guide - 2024 Syeda Hafsa</p>
     </footer>
+
 </body>
 </html>

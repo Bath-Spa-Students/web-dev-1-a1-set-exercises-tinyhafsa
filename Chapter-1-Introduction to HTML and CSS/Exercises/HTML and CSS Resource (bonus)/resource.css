@@ -1,3 +1,4 @@
+/*style of page*/
 body {
     background-color: #FEECE2; 
     width: 70%;
@@ -6,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*style of html and css class divs*/
 .html, .css {
     background-color: #FFFBF5;
     box-shadow: #E78895 10px 10px;
@@ -14,6 +16,7 @@ body {
     border: 1px solid #E78895;
 }
 
+/*heading styles*/
 h1 {
     background-color: #FFFBF5;
     color: #E78895;
@@ -31,15 +34,20 @@ h2 {
     margin: 10px 0px ;
 }
 
+h3 {
+    color: #E78895;
+    margin: 5px 0px ;
+}
+
+h4 {
+    color: #E78895;
+}
+
+/*div class styles*/
 .desc {
     background-color: #FFF7F1;
     border: 2px solid #E78895;
     padding: 5px 10px;
-}
-
-h3 {
-    color: #E78895;
-    margin: 5px;
 }
 
 .def1 {
@@ -50,13 +58,14 @@ h3 {
     font-size: 16px;
 }
 
+/*pre style*/
 pre {
     background-color: #F7EFE5;
-    padding: 10px 10px 10px 0px;
+    padding-top: 10px;
     border-radius: 5px;
-    overflow-x: auto;
 }
 
+/*code block style*/
 code {
     font-family: 'Courier New', Courier, monospace;
     color: #E78895;
@@ -66,21 +75,12 @@ code {
     font-size: 15px;
 }
 
-.box {
-    background-color: #bfbaba; /*sets the background color of the class box*/
-    width: 300px; /*sets the width of class box as 300px*/
-    height: 200px; /*sets the height of class box as 200px*/
-    padding: 20px; /*sets the padding of class box as 20px*/
-    text-align: center; /*aligns the text to the center in the class box*/
-    font-size: 24px; /*sets the font size of class box to 24px */
-    font-family: Arial, sans-serif; /*sets the font family of box class */
-    border-radius: 20px; /*adds a border radius of 20px to the class box */
-    }
-
+/*hr style*/
 hr {
     color: #E78895;
 }
 
+/*footer style*/
 footer {
     text-align: center;
     background-color: #FFFBF5;
