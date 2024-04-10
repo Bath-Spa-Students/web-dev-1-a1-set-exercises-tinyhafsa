@@ -1,0 +1,143 @@
+<!DOCTYPE html> <!--DTD: Document Type Definition-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!--meta: data about data--> <!--charset: allows multiple languages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--fits screen to different devices-->
+
+    <!-- CHAPTER 5: Alan Patridge Soundboard (bonus) -->
+    <title>Alan Patridge Soundboard</title> <!--page title - shows on tab-->
+        <link rel = "stylesheet" href="style.css"> <!--link to external stylesheet-->
+        <script src="index.js"></script> <!-- link to javascript file -->
+</head>
+
+<body>
+    <!-- main content -->
+    <main>
+        <div class="grid">
+            <div class="tts">
+                <h3 class="one">Text-to-Speech</h3>
+                <div>
+                    <input type="text" id="text-to-speech" placeholder="Enter text to speak" />
+                </div>
+                <div>
+                    <button type="button" onclick="textToAudio()">Speak</button>
+                </div>
+                <div>
+                    <small><b>NOTE:</b> Enter text and click on speak button.</small>
+                </div>
+            </div>
+
+            <div class="samples">
+                <div class="soundboard" id="page1">
+                    <h3 class="pg1">Audio Sample Page 1</h3>
+                    <div class="slide1">
+                        <button onclick="ahha()"> <!-- button - given function when clicked -->
+                            <p class="index">01</p> <!-- number -->
+                            <p class="name">Ah-ha</p> <!-- name -->
+                            <p class="time">01:4</p> <!-- time duration -->
+                        </button>
+                        <button onclick="botn()">
+                            <p class="index">02</p>
+                            <p class="name">Back of the Net</p>
+                            <p class="time">01:02</p>
+                        </button>
+                        <button onclick="booo()">
+                            <p class="index">03</p>
+                            <p class="name">Bang out of Order</p>
+                            <p class="time">01:38</p>
+                        </button>
+                        <button onclick="dan()">
+                            <p class="index">04</p>
+                            <p class="name">Dan</p>
+                            <p class="time">00:50</p>
+                        </button>
+                        <button onclick="eote()">
+                            <p class="index">05</p>
+                            <p class="name">Email of the Evening</p>
+                            <p class="time">01:49</p>
+                        </button>
+                        <button onclick="mm()">
+                            <p class="index">06</p>
+                            <p class="name">Magic Mallet</p>
+                            <p class="time">01:49</p>
+                        </button>
+                        <button onclick="hp()">
+                            <p class="index">07</p>
+                            <p class="name">Hello Patridge</p>
+                            <p class="time">02:25</p>
+                        </button>
+                        <button onclick="iase()">
+                            <p class="index">08</p>
+                            <p class="name">I ate a Scotch Egg</p>
+                            <p class="time">01:07</p>
+                        </button>
+                        <button onclick="imc()">
+                            <p class="index">09</p>
+                            <p class="name">I'm Confused</p>
+                            <p class="time">01:91</p>
+                        </button>
+                    </div>
+                    <div class="nav">
+                        <a href="#page2" class="right-arrow">&gt;</a>
+                    </div>
+                </div>
+
+                <div class="soundboard" id="page2">
+                    <h3 class="pg1">Audio Sample  Page 2</h3>
+                    <div class="slide2">
+                        <button onclick="dma()"> <!-- button - given function when clicked -->
+                            <p class="index">10</p> <!-- number -->
+                            <p class="name">Door meet Apple</p> <!-- name -->
+                            <p class="time">01:4</p> <!-- time duration -->
+                        </button>
+                        <button onclick="eitfs()">
+                            <p class="index">11</p>
+                            <p class="name">Error in the File System</p>
+                            <p class="time">01:02</p>
+                        </button>
+                        <button onclick="hpop()">
+                            <p class="index">12</p>
+                            <p class="name">Happy Pop</p>
+                            <p class="time">01:38</p>
+                        </button>
+                        <button onclick="mc()">
+                            <p class="index">13</p>
+                            <p class="name">Mouse Click</p>
+                            <p class="time">00:50</p>
+                        </button>
+                        <button onclick="move()">
+                            <p class="index">14</p>
+                            <p class="name">Movement</p>
+                            <p class="time">01:49</p>
+                        </button>
+                        <button onclick="rs10()">
+                            <p class="index">15</p>
+                            <p class="name">Robot Saying Ten</p>
+                            <p class="time">01:49</p>
+                        </button>
+                        <button onclick="sparkle()">
+                            <p class="index">16</p>
+                            <p class="name">Sparkle</p>
+                            <p class="time">02:25</p>
+                        </button>
+                        <button onclick="sn()">
+                            <p class="index">17</p>
+                            <p class="name">System Notification</p>
+                            <p class="time">01:07</p>
+                        </button>
+                        <button onclick="twinkle()">
+                            <p class="index">18</p>
+                            <p class="name">Twinkle</p>
+                            <p class="time">01:91</p>
+                        </button>
+                    </div>  
+                    <!-- Navigation Links -->
+                    <div class="nav">
+                        <a href="#page1" class="left-arrow">&lt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
