@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!--DTD: Document Type Definition-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> <!--meta: data about data--> <!--charset: allows multiple languages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--fits screen to different devices-->
+
+    <!-- CHAPTER 6: Petrol Calculator (mandatory) -->
+    <title>Petrol Calculator</title> <!--page title - shows on tab-->
+        <link rel = "stylesheet" href="calculator.css"> <!--link to external stylesheet-->
+        <link rel="icon" href="image/petrol.png" type="image/x-icon"> <!--favicon-->
+        <script src="calculator.js"></script> <!-- link to javascript file -->
+</head>
+
+<body>
+    <header> <!-- HEADER -->
+        <h1>Petrol Calculator</h1>
+    </header>
+    <main> <!-- MAIN CONTENT -->
+        <form>
+            <div class="cost">
+                <h3>Cost per Liter</h3>
+                <input type="text" id="costperlitre" value="1.72" /> 
+                <!-- input field for cost - default value set to 1.72 -->
+            </div>
+    
+            <div class="purchase">
+                <h3>Number of Litres Purchased</h3>
+                <input type="text" id="litresPurchased" value="0" />
+                <!-- input field for liters purchased - default value set to 0 -->
+            </div>
+    
+            <button type="button" onclick="calculate ()"> 
+            <!-- button - when clicked, fuction will be carried out -->
+                Calculate Total Cost
+            </button>
+        </form>
+
+        <div class="result">
+            <p>Total cost of petrol: <span id="result"><!-- result will be displayed here --></span></p>
+        </div>
+    </main>
+    <footer> <!-- FOOTER -->
+        Copyright &copy; Petrol Calculator - 2024 Syeda Hafsa
+    </footer>
+</body>
+</html>
